@@ -23,3 +23,8 @@ def build_chat_prompt_system() -> str:
     
     return system_prompt
 
+
+def build_poem_prompt(poem_title:str) -> str:
+    poem_prompt = f"Title: {poem_title}"
+    
+
